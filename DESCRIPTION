@@ -1,0 +1,12 @@
+Package: PogromcyDanych
+Type: Package
+Title: R package for the PogromcyDanych Masive Online Open Course
+Version: 1.0
+Date: 2015-01-01
+Author: Przemyslaw Biecek (Foundation SmarterPoland.pl)
+Maintainer: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>
+Description: R package for the PogromcyDanych MOOC. See pogromcydanych.pl for more details.
+LazyLoad: yes
+LazyData: yes 
+License: GPL-3
+Depends: R (>= 2.10), dplyr, SmarterPoland
