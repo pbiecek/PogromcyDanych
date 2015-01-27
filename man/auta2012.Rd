@@ -1,5 +1,6 @@
 \name{auta2012}
 \alias{auta2012}
+\alias{auta2012_eng}
 \docType{data}
 \title{Used Cars offers}
 \description{
