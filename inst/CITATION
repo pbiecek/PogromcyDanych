@@ -1,0 +1,16 @@
+citHeader("Kindly cite the PogromcyDanych R package as follows:")
+
+citEntry(entry="misc",
+         title = "SmarterPoland R package",
+         author = personList(
+	   person(given ="Przemyslaw", family="Biecek", email = "Przemyslaw.Biecek@gmail.com")
+         ),
+	 journal = "",
+	 year = "2015",
+         textVersion =
+         paste("Przemyslaw Biecek (2015)",
+               "PogromcyDanych R package",
+               sep=", ")
+         )
+
+

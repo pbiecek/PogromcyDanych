@@ -5,8 +5,8 @@ Version: 1.0
 Date: 2015-01-01
 Author: Przemyslaw Biecek (Foundation SmarterPoland.pl)
 Maintainer: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>
-Description: R package for the PogromcyDanych MOOC. See pogromcydanych.pl for more details.
+Description: The data sets used in the online course ,,PogromcyDanych''. The course about R, visualization and data analysis. The dataset includes both large data sets, such as auta2012 with prices for cars offered for sale in 2012, as well as small data sets to basic exercises such as koty_ptaki.
 LazyLoad: yes
 LazyData: yes 
 License: GPL-3
-Depends: R (>= 2.10), dplyr, SmarterPoland
+Depends: R (>= 3.1), dplyr, SmarterPoland
