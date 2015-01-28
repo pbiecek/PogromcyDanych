@@ -6,6 +6,6 @@ setColnameLang <- function(lang = "eng") {
                                 "Mileage", "To.fuel", "Year", "Color", "Country.of.current.registration",
                                 "Country.of.origin", "Is.damaged", "Transmission", "Is.imported",
                                 "Accessories")
-    assign("auta2012", value = auta2012_eng, envir = -2)
+    assign("auta2012", value = auta2012_eng, pos = -2)
   }
 }
