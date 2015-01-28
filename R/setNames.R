@@ -1,4 +1,4 @@
-setNames <- function(lang = "eng") {
+setColnameLang <- function(lang = "eng") {
   if (lang == "eng") {
     auta2012_eng <- auta2012
     colnames(auta2012_eng) <- c("Price", "Currency", "Price.in.PLN", "Gross.Net", "HP", "kW",
