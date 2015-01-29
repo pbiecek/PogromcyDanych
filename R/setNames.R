@@ -3,6 +3,7 @@ setColnameLang <- function(lang = "eng") {
   pearson_eng <- pearson
   galton_eng <- galton
   WIG_eng <- WIG
+  imiona_warszawa_eng <- imiona_warszawa
   cats_birds <- koty_ptaki
   if (lang == "eng") {
     colnames(auta2012_eng) <- c("Price", "Currency", "Price.in.PLN", "Gross.Net", "HP", "kW",
@@ -13,6 +14,7 @@ setColnameLang <- function(lang = "eng") {
   
     colnames(pearson_eng) <- c("son", "father")
     colnames(galton_eng) <- c("son", "mid_parent")
+    colnames(imiona_warszawa_eng) <- c("name", "sex", "year", "month", "count")
     
     colnames(WIG_eng) <- c("Date", "Name", "Opening Price", "Max Price", "Min Price",
                            "Closing Price", "Change", "Turnover")
@@ -32,6 +34,7 @@ setColnameLang <- function(lang = "eng") {
     
     colnames(pearson_eng) <- c("syn", "ojciec")
     colnames(galton_eng) <- c("syn", "sr_rodzic")
+    colnames(imiona_warszawa_eng) <- c("imie", "plec", "rok", "miesiac", "liczba")
     
     colnames(WIG_eng) <- c("Data", "Nazwa", "Kurs.otwarcia", "Kurs.maksymalny",
                            "Kurs.minimalny", "Kurs.zamkniecia", "Zmiana", "Wartosc.obrotu.w.tys.zl")
@@ -41,6 +44,7 @@ setColnameLang <- function(lang = "eng") {
   }
   assign("pearson", value = pearson_eng, envir = .GlobalEnv)
   assign("galton", value = galton_eng, envir = .GlobalEnv)
+  assign("imiona_warszawa", value = imiona_warszawa_eng, envir = .GlobalEnv)
   assign("WIG", value = WIG_eng, envir = .GlobalEnv)
   assign("auta2012", value = auta2012_eng, envir = .GlobalEnv)
   invisible(0)
