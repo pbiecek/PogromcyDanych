@@ -3,6 +3,7 @@ setColnameLang <- function(lang = "eng") {
   pearson_eng <- pearson
   galton_eng <- galton
   WIG_eng <- WIG
+  mandatySejmik2014_eng <- mandatySejmik2014
   imiona_warszawa_eng <- imiona_warszawa
   cats_birds <- koty_ptaki
   if (lang == "eng") {
@@ -15,6 +16,8 @@ setColnameLang <- function(lang = "eng") {
     colnames(pearson_eng) <- c("son", "father")
     colnames(galton_eng) <- c("son", "mid_parent")
     colnames(imiona_warszawa_eng) <- c("name", "sex", "year", "month", "count")
+    colnames(mandatySejmik2014_eng) <- c("Voivodeship", "PSL", "PiS", "PO", "SLD", "Other", "Prc_valid_votes", 
+                               "long", "lat")
     
     colnames(WIG_eng) <- c("Date", "Name", "Opening Price", "Max Price", "Min Price",
                            "Closing Price", "Change", "Turnover")
@@ -39,12 +42,17 @@ setColnameLang <- function(lang = "eng") {
     colnames(WIG_eng) <- c("Data", "Nazwa", "Kurs.otwarcia", "Kurs.maksymalny",
                            "Kurs.minimalny", "Kurs.zamkniecia", "Zmiana", "Wartosc.obrotu.w.tys.zl")
 
+    colnames(mandatySejmik2014_eng) <- c("Wojewodztwo", "PSL", "PiS", "PO", "SLD", "Inne", "ProcentWaznychGlosow", 
+                                         "long", "lat")
+    
     colnames(cats_birds) <- c("gatunek", "waga", "dlugosc", "predkosc", "habitat", "zywotnosc", "druzyna" )
     assign("koty_ptaki", value = cats_birds, envir = .GlobalEnv)
   }
+  
   assign("pearson", value = pearson_eng, envir = .GlobalEnv)
   assign("galton", value = galton_eng, envir = .GlobalEnv)
   assign("imiona_warszawa", value = imiona_warszawa_eng, envir = .GlobalEnv)
+  assign("mandatySejmik2014", value = mandatySejmik2014_eng, envir = .GlobalEnv)
   assign("WIG", value = WIG_eng, envir = .GlobalEnv)
   assign("auta2012", value = auta2012_eng, envir = .GlobalEnv)
   invisible(0)
