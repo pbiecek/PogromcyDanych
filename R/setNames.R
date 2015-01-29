@@ -1,6 +1,7 @@
 setColnameLang <- function(lang = "eng") {
   auta2012_eng <- auta2012
   WIG_eng <- WIG
+  cats_birds <- koty_ptaki
   if (lang == "eng") {
     colnames(auta2012_eng) <- c("Price", "Currency", "Price.in.PLN", "Gross.Net", "HP", "kW",
                                 "Brand", "Model", "Version", "Nubmer.of.doors", "Engine.cubic.capacity",
@@ -10,6 +11,9 @@ setColnameLang <- function(lang = "eng") {
   
     colnames(WIG_eng) <- c("Date", "Name", "Opening Price", "Max Price", "Min Price",
                            "Closing Price", "Change", "Turnover")
+    
+    colnames(cats_birds) <- c("species", "weight", "length", "speed", "habitat", "lifespan", "group" )
+    assign("cats_birds", value = cats_birds, envir = .GlobalEnv)
   } else {
     colnames(auta2012_eng) <- c("Cena", "Waluta", "Cena.w.PLN", "Brutto.netto", "KM", "kW", 
       "Marka", "Model", "Wersja", "Liczba.drzwi", "Pojemnosc.skokowa", 
@@ -19,7 +23,9 @@ setColnameLang <- function(lang = "eng") {
     
     colnames(WIG_eng) <- c("Data", "Nazwa", "Kurs.otwarcia", "Kurs.maksymalny",
                            "Kurs.minimalny", "Kurs.zamkniecia", "Zmiana", "Wartosc.obrotu.w.tys.zl")
-    
+
+    colnames(cats_birds) <- c("gatunek", "waga", "dlugosc", "predkosc", "habitat", "zywotnosc", "druzyna" )
+    assign("koty_ptaki", value = cats_birds, envir = .GlobalEnv)
   }
   assign("WIG", value = WIG_eng, envir = .GlobalEnv)
   assign("auta2012", value = auta2012_eng, envir = .GlobalEnv)
