@@ -1,9 +1,10 @@
 \name{imiona_warszawa}
 \alias{imiona_warszawa}
+\alias{warsaw_names}
 \docType{data}
 \title{Statistics of Names in Warsaw}
 \description{
-Names of kids [girls and boys] newborn in Warsaw between 2004 and 2014.
+Names of newborn kids [girls and boys] in Warsaw between 2004 and 2014.
 
 Data collected from http://gorny.edu.pl/imiona/index.php
 }

@@ -1,4 +1,4 @@
-setColnameLang <- function(lang = "eng") {
+setLang <- function(lang = "eng") {
   auta2012_eng <- auta2012
   pearson_eng <- pearson
   galton_eng <- galton
@@ -47,12 +47,12 @@ setColnameLang <- function(lang = "eng") {
     
     colnames(cats_birds) <- c("gatunek", "waga", "dlugosc", "predkosc", "habitat", "zywotnosc", "druzyna" )
     assign("koty_ptaki", value = cats_birds, envir = .GlobalEnv)
+    assign("warsaw_names", value = imiona_warszawa_eng, envir = .GlobalEnv)
+    assign("votes2014", value = mandatySejmik2014_eng, envir = .GlobalEnv)
   }
   
   assign("pearson", value = pearson_eng, envir = .GlobalEnv)
   assign("galton", value = galton_eng, envir = .GlobalEnv)
-  assign("imiona_warszawa", value = imiona_warszawa_eng, envir = .GlobalEnv)
-  assign("mandatySejmik2014", value = mandatySejmik2014_eng, envir = .GlobalEnv)
   assign("WIG", value = WIG_eng, envir = .GlobalEnv)
   assign("auta2012", value = auta2012_eng, envir = .GlobalEnv)
   invisible(0)

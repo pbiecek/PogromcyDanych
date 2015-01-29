@@ -1,5 +1,5 @@
-\name{setColnameLang}
-\alias{setColnameLang}
+\name{setLang}
+\alias{setLang}
 \title{
 Change Column Names to a Selected Language
 }
@@ -7,7 +7,7 @@ Change Column Names to a Selected Language
 By default all datasets have Polish column names. This function will replace them into the column names with English names.
 }
 \usage{
-setColnameLang(lang = "eng")
+setLang(lang = "eng")
 }
 \arguments{
   \item{lang}{
@@ -15,7 +15,7 @@ setColnameLang(lang = "eng")
 }
 }
 \value{
-The function \code{setColnameLang()} changes column names to English or Polish ones.
+The function \code{setLang()} changes column names in all datasets in PogromcyDanych package to English or to Polish, depending on `lang` argument.
 }
 \author{
 Przemyslaw Biecek

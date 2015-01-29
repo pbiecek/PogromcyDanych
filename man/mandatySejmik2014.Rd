@@ -1,5 +1,6 @@
 \name{mandatySejmik2014}
 \alias{mandatySejmik2014}
+\alias{votes2014}
 \docType{data}
 \title{Local Government Elections in Poland 2014}
 \description{
