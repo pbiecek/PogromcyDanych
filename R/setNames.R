@@ -13,6 +13,10 @@ setColnameLang <- function(lang = "eng") {
                            "Closing Price", "Change", "Turnover")
     
     colnames(cats_birds) <- c("species", "weight", "length", "speed", "habitat", "lifespan", "group" )
+    cats_birds$species <- c("Tiger", "Lion", "Cheetah", "Jaguar", "Puma", "Leopard", "Irbis", "Swift", 
+                            "Ostrich", "Golden Eagle", "Peregrine Falcon", "Falcon Norwegian", "Albatros")
+    cats_birds$group <- c(rep("Cat", 7), rep("Bird", 6))
+    cats_birds$habitat <- c("Asia", "Africa", "America", "America", "Asia", "Africa", "Asia", "Eurasia", "Africa", "North", "North", "North", "South")
     assign("cats_birds", value = cats_birds, envir = .GlobalEnv)
   } else {
     colnames(auta2012_eng) <- c("Cena", "Waluta", "Cena.w.PLN", "Brutto.netto", "KM", "kW", 
