@@ -27,6 +27,9 @@ setLang <- function(lang = "eng") {
                             "Ostrich", "Golden Eagle", "Peregrine Falcon", "Falcon Norwegian", "Albatros")
     cats_birds$group <- c(rep("Cat", 7), rep("Bird", 6))
     cats_birds$habitat <- c("Asia", "Africa", "America", "America", "Asia", "Africa", "Asia", "Eurasia", "Africa", "North", "North", "North", "South")
+
+    assign("warsaw_names", value = imiona_warszawa_eng, envir = .GlobalEnv)
+    assign("votes2014", value = mandatySejmik2014_eng, envir = .GlobalEnv)
     assign("cats_birds", value = cats_birds, envir = .GlobalEnv)
   } else {
     colnames(auta2012_eng) <- c("Cena", "Waluta", "Cena.w.PLN", "Brutto.netto", "KM", "kW", 
@@ -37,18 +40,14 @@ setLang <- function(lang = "eng") {
     
     colnames(pearson_eng) <- c("syn", "ojciec")
     colnames(galton_eng) <- c("syn", "sr_rodzic")
-    colnames(imiona_warszawa_eng) <- c("imie", "plec", "rok", "miesiac", "liczba")
-    
+ #   colnames(imiona_warszawa_eng) <- c("imie", "plec", "rok", "miesiac", "liczba")  
     colnames(WIG_eng) <- c("Data", "Nazwa", "Kurs.otwarcia", "Kurs.maksymalny",
                            "Kurs.minimalny", "Kurs.zamkniecia", "Zmiana", "Wartosc.obrotu.w.tys.zl")
 
-    colnames(mandatySejmik2014_eng) <- c("Wojewodztwo", "PSL", "PiS", "PO", "SLD", "Inne", "ProcentWaznychGlosow", 
-                                         "long", "lat")
-    
-    colnames(cats_birds) <- c("gatunek", "waga", "dlugosc", "predkosc", "habitat", "zywotnosc", "druzyna" )
-    assign("koty_ptaki", value = cats_birds, envir = .GlobalEnv)
-    assign("warsaw_names", value = imiona_warszawa_eng, envir = .GlobalEnv)
-    assign("votes2014", value = mandatySejmik2014_eng, envir = .GlobalEnv)
+#    colnames(mandatySejmik2014_eng) <- c("Wojewodztwo", "PSL", "PiS", "PO", "SLD", "Inne", "ProcentWaznychGlosow", 
+#                                         "long", "lat")   
+#    colnames(cats_birds) <- c("gatunek", "waga", "dlugosc", "predkosc", "habitat", "zywotnosc", "druzyna" )
+#    assign("koty_ptaki", value = cats_birds, envir = .GlobalEnv)
   }
   
   assign("pearson", value = pearson_eng, envir = .GlobalEnv)

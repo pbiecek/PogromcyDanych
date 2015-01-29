@@ -22,7 +22,7 @@ Przemyslaw Biecek
 }
 \examples{
 \dontrun{
-  setColnameLang()
+  setLang()
 }
 }
 \keyword{ database }
