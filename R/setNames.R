@@ -1,5 +1,7 @@
 setColnameLang <- function(lang = "eng") {
   auta2012_eng <- auta2012
+  pearson_eng <- pearson
+  galton_eng <- galton
   WIG_eng <- WIG
   cats_birds <- koty_ptaki
   if (lang == "eng") {
@@ -9,6 +11,9 @@ setColnameLang <- function(lang = "eng") {
                                 "Country.of.origin", "Is.damaged", "Transmission", "Is.imported",
                                 "Accessories")
   
+    colnames(pearson_eng) <- c("son", "father")
+    colnames(galton_eng) <- c("son", "mid_parent")
+    
     colnames(WIG_eng) <- c("Date", "Name", "Opening Price", "Max Price", "Min Price",
                            "Closing Price", "Change", "Turnover")
     
@@ -25,12 +30,17 @@ setColnameLang <- function(lang = "eng") {
       "Kraj.pochodzenia", "Pojazd.uszkodzony", "Skrzynia.biegow", "Status.pojazdu.sprowadzonego", 
       "Wyposazenie.dodatkowe")
     
+    colnames(pearson_eng) <- c("syn", "ojciec")
+    colnames(galton_eng) <- c("syn", "sr_rodzic")
+    
     colnames(WIG_eng) <- c("Data", "Nazwa", "Kurs.otwarcia", "Kurs.maksymalny",
                            "Kurs.minimalny", "Kurs.zamkniecia", "Zmiana", "Wartosc.obrotu.w.tys.zl")
 
     colnames(cats_birds) <- c("gatunek", "waga", "dlugosc", "predkosc", "habitat", "zywotnosc", "druzyna" )
     assign("koty_ptaki", value = cats_birds, envir = .GlobalEnv)
   }
+  assign("pearson", value = pearson_eng, envir = .GlobalEnv)
+  assign("galton", value = galton_eng, envir = .GlobalEnv)
   assign("WIG", value = WIG_eng, envir = .GlobalEnv)
   assign("auta2012", value = auta2012_eng, envir = .GlobalEnv)
   invisible(0)
