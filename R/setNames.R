@@ -108,6 +108,7 @@ setLang <- function(lang = "eng") {
     assign("votes2014", value = mandatySejmik2014_eng, envir = .GlobalEnv)
     assign("cats_birds", value = cats_birds, envir = .GlobalEnv)
     assign("diagnosis", value = diagnosis, envir = .GlobalEnv)
+    assign("diagnosisDict", value = diagnozaDict, envir = .GlobalEnv)
   } else {
     colnames(auta2012_eng) <- c("Cena", "Waluta", "Cena.w.PLN", "Brutto.netto", "KM", "kW", 
       "Marka", "Model", "Wersja", "Liczba.drzwi", "Pojemnosc.skokowa", 

@@ -1,6 +1,8 @@
 \name{Diagnoza-Spoleczna}
 \alias{diagnoza}
 \alias{diagnozaDict}
+\alias{diagnosis}
+\alias{diagnosisDict}
 \docType{data}
 \title{A Subset of Polish Social Diagnosis Data}
 \description{
