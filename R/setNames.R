@@ -3,6 +3,7 @@ setLang <- function(lang = "eng") {
   pearson_eng <- pearson
   galton_eng <- galton
   WIG_eng <- WIG
+  diagnosis <- diagnoza
   mandatySejmik2014_eng <- mandatySejmik2014
   imiona_warszawa_eng <- imiona_warszawa
   cats_birds <- koty_ptaki
@@ -28,9 +29,85 @@ setLang <- function(lang = "eng") {
     cats_birds$group <- c(rep("Cat", 7), rep("Bird", 6))
     cats_birds$habitat <- c("Asia", "Africa", "America", "America", "Asia", "Africa", "Asia", "Eurasia", "Africa", "North", "North", "North", "South")
 
+    levels(diagnosis$plec) = c("MAN", "WOMAN")
+    levels(diagnosis$eduk4_2013) = c("PRIMARY/NO EDUCATION", "VOCATIONAL/GRAMMAR", 
+                   "SECONDARY", "HIGHER AND POST-SECONDARY")
+    levels(diagnosis$status9_2013) = c("EMPLOYEES IN PUBLIC SECTOR", 
+                     "EMPLOYEES IN PRIVATE SECTOR", "ENTREPRENEUR/SELF-EMPLOYED", 
+                     "FARMERS", "PENSIONERS", "RETIREES", "PUPILS AND STUDENTS", 
+                     "UNEMPLOYED", "OTHER PROFESSIONALLY INACTIVE")
+    levels(diagnosis$gp3) = c("DELIGHTED", "PLEASED", 
+            "MOSTLY SATISFIED", "MIXED", "MOSTLY DISSATISFIED", "UNHAPPY", 
+            "TERRIBLE")
+    levels(diagnosis$gp29) = c("FUN, WELL-BEING, LACK OF STRESS", 
+             "SENSE OF PURPOSE, ACHIEVING IMPORTANT GOALS DESPITE DIFFICUL")
+    levels(diagnosis$gp54_01) = c("DEFINITELY AGREE", "AGREE", "RATHER AGREE", 
+                "NEITHER AGREE NOR DISAGREE", "RATHER DISAGREE", "DISAGREE", 
+                "DEFINITELY DISAGREE") 
+    levels(diagnosis$gp54_02) = c("DEFINITELY YES", "YES", 
+                "RATHER YES", "NEITHER YES OR NO", "PROBABLY NOT", "NO", 
+                "DEFINITELY NOT")
+    levels(diagnosis$gp54_03) = c("DEFINITELY YES", "YES", "RATHER YES", 
+                "NEITHER YES OR NO", "PROBABLY NOT", "NO", "DEFINITELY NOT")
+    levels(diagnosis$gp54_04) = c("DEFINITELY AGREE", "AGREE", "RATHER AGREE", 
+                "NEITHER AGREE NOR DISAGREE", "RATHER DISAGREE", "DISAGREE", 
+                "DEFINITELY DISAGREE") 
+    levels(diagnosis$gp54_05) = c("DEFINITELY AGREE", "AGREE", 
+                "RATHER AGREE", "NEITHER AGREE NOR DISAGREE", "RATHER DISAGREE", 
+                "DISAGREE", "DEFINITELY DISAGREE") 
+    levels(diagnosis$gp54_06) = c("DEFINITELY AGREE", 
+                "AGREE", "RATHER AGREE", "NEITHER AGREE NOR DISAGREE", "RATHER DISAGREE", 
+                "DISAGREE", "DEFINITELY DISAGREE") 
+    levels(diagnosis$gp54_07) = c("ZDECYDOWANIE TAK", 
+                "TAK", "RACZEJ TAK", "ANI TAK, ANI NIE", "RACZEJ NIE", "NIE", 
+                "ZDECYDOWANIE NIE") 
+    levels(diagnosis$gp54_08) = c("DEFINITELY YES", "YES", 
+                "RATHER YES", "NEITHER YES OR NO", "PROBABLY NOT", "NO", 
+                "DEFINITELY NOT")
+    levels(diagnosis$gp54_09) = c("DEFINITELY YES", "YES", "RATHER YES", 
+                "NEITHER YES OR NO", "PROBABLY NOT", "NO", "DEFINITELY NOT")
+    levels(diagnosis$gp54_10) = c("DEFINITELY YES", "YES", "RATHER YES", "NEITHER YES OR NO", 
+                "PROBABLY NOT", "NO", "DEFINITELY NOT") 
+    levels(diagnosis$gp54_11) = c("DEFINITELY YES", 
+                "YES", "RATHER YES", "NEITHER YES OR NO", "PROBABLY NOT", 
+                "NO", "DEFINITELY NOT") 
+    levels(diagnosis$gp54_12) = c("DEFINITELY YES", "YES", 
+                "RATHER YES", "NEITHER YES OR NO", "PROBABLY NOT", "NO", 
+                "DEFINITELY NOT")
+    levels(diagnosis$gp54_13) = c("DEFINITELY AGREE", "AGREE", 
+                "RATHER AGREE", "NEITHER AGREE NOR DISAGREE", "RATHER DISAGREE", 
+                "DISAGREE", "DEFINITELY DISAGREE")
+    levels(diagnosis$gp54_14) = c("DEFINITELY AGREE", 
+                "AGREE", "RATHER AGREE", "NEITHER AGREE NOR DISAGREE", "RATHER DISAGREE", 
+                "DISAGREE", "DEFINITELY DISAGREE") 
+    levels(diagnosis$gp54_15) = c("DEFINITELY AGREE", 
+                "AGREE", "RATHER AGREE", "NEITHER AGREE NOR DISAGREE", "RATHER DISAGREE", 
+                "DISAGREE", "DEFINITELY DISAGREE") 
+    levels(diagnosis$gp54_16) = c("DEFINITELY YES", 
+                "YES", "RATHER YES", "NEITHER YES OR NO", "PROBABLY NOT", 
+                "NO", "DEFINITELY NOT")
+    levels(diagnosis$gp54_17) = c("DEFINITELY AGREE", 
+                "AGREE", "RATHER AGREE", "NEITHER AGREE NOR DISAGREE", "RATHER DISAGREE", 
+                "DISAGREE", "DEFINITELY DISAGREE") 
+    levels(diagnosis$gp54_18) = c("DEFINITELY AGREE", 
+                "AGREE", "RATHER AGREE", "NEITHER AGREE NOR DISAGREE", "RATHER DISAGREE", 
+                "DISAGREE", "DEFINITELY DISAGREE") 
+    levels(diagnosis$gp54_19) = c("DEFINITELY YES", 
+                "YES", "RATHER YES", "NEITHER YES OR NO", "PROBABLY NOT", 
+                "NO", "DEFINITELY NOT") 
+    levels(diagnosis$gp54_20) = c("DEFINITELY YES", "YES", 
+                "RATHER YES", "NEITHER YES NOR NOT", "RATHER NOT", "NO", 
+                "DEFINITELY NOT")
+    levels(diagnosis$gp54_21) = c("DEFINITELY YES", "YES", "RATHER YES", 
+                "NEITHER YES NOR NOT", "RATHER NOT", "NO", "DEFINITELY NOT"
+    )
+    levels(diagnosis$gp54_22) = c("DEFINITELY YES", "YES", "RATHER YES", "NEITHER YES NOR NOT", 
+                "RATHER NOT", "NO", "DEFINITELY NOT")
+    
     assign("warsaw_names", value = imiona_warszawa_eng, envir = .GlobalEnv)
     assign("votes2014", value = mandatySejmik2014_eng, envir = .GlobalEnv)
     assign("cats_birds", value = cats_birds, envir = .GlobalEnv)
+    assign("diagnosis", value = diagnosis, envir = .GlobalEnv)
   } else {
     colnames(auta2012_eng) <- c("Cena", "Waluta", "Cena.w.PLN", "Brutto.netto", "KM", "kW", 
       "Marka", "Model", "Wersja", "Liczba.drzwi", "Pojemnosc.skokowa", 
