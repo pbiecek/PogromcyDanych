@@ -104,6 +104,51 @@ setLang <- function(lang = "eng") {
     levels(diagnosis$gp54_22) = c("DEFINITELY YES", "YES", "RATHER YES", "NEITHER YES NOR NOT", 
                 "RATHER NOT", "NO", "DEFINITELY NOT")
     
+    levels(auta2012$Skrzynia.biegow) = c("", "automatic", "manual")
+    levels(auta2012$Pojazd.uszkodzony) = c("", "Yes")
+    levels(auta2012$Rodzaj.paliwa) = c("petrol", "petrol+LPG", "ethanol", "hybrid", "electric", "diesel")
+    levels(auta2012$Kolor) <- c("", "sand", "sand-metallic", "white", "white-metallic", 
+                                "dark red", "dark red-metallic", "brown", "brown-metallic", 
+                                "black", "black-metallic", "red", "red-metallic", 
+                                "violet", "violet-metallic", "graphite", "graphite-metallic", 
+                                "dark blue", "dark blue-metallic", "blue", "blue-metallic", 
+                                "orange", "orange-metallic", "pink", "pink-metallic", 
+                                "silver", "silver-metallic", "grey", "grey-metallic", "cherry", 
+                                "cherry-metallic", "green", "green-metallic", "yellow", 
+                                "yellow-metallic", "gold", "gold-metallic")
+    auta2012$Kolor <- factor(as.character(auta2012$Kolor))
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="el. lusterka", replacement="electric mirrors")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="klimatyzacja", replacement="air conditioning")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="alufelgi", replacement="alloy wheels")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="centralny zamek", replacement="central locking")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="poduszka powietrzna", replacement="airbag")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="wspomaganie kierownicy", replacement="power steering")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="komputer", replacement="computer")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="przyciemniane szyby", replacement="tinted windows")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="skorzana tapicerka", replacement="leather upholstery")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="tempomat", replacement="cruise control")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="hak", replacement="hook")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="el. szyby", replacement="el. windows")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="welurowa tapicerka", replacement="velor upholstery")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="lwiatla przeciwmglowe", replacement="fog lights
+                                           ")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="kierownica wielofunkcyjna", replacement="multifunction steering wheel")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="pod. przednia szyba", replacement="the windshield")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="podgrzewane fotele", replacement="heated seats")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="czujnik parkowania", replacement="parking sensor")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="czujnik deszczu", replacement="rain sensor")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="system nawigacji", replacement="navigation system")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="ksenony", replacement="xeons")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="szyberdach", replacement="sunroof")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="niezalezne ogrzewanie", replacement="independent heating")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="bagaznik na dach", replacement="trunk on the roof")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="blokada skrzyni biegAlw", replacement="gearbox lock")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="reg. wysokole podwozia", replacement="height adjustable chassis")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="blokada dyferencjalu", replacement="differential lock")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="blokada skrzyni biegow", replacement="transmission lock box")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="instalacja gazowa", replacement="gas-fittings")
+    auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="klatka", replacement="cage")
+    
     assign("warsaw_names", value = imiona_warszawa_eng, envir = .GlobalEnv)
     assign("votes2014", value = mandatySejmik2014_eng, envir = .GlobalEnv)
     assign("cats_birds", value = cats_birds, envir = .GlobalEnv)
