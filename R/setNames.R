@@ -8,7 +8,7 @@ pushGlobal <- function(name, value) {
 
 setLang <- function(lang = "eng") {
   data(list = c("auta2012", "pearson", "galton", "WIG", "diagnoza", "diagnozaDict", "mandatySejmik2014",
-                "koty_ptaki", "imiona_warszawa"), package = "PogromcyDanych")
+                "koty_ptaki", "imiona_warszawa"), package = "PogromcyDanych", envir = environment())
   auta2012_eng <- auta2012
   pearson_eng <- pearson
   galton_eng <- galton
