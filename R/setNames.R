@@ -162,7 +162,7 @@ setLang <- function(lang = "eng") {
     pushGlobal("votes2014", value = mandatySejmik2014_eng)
     pushGlobal("cats_birds", value = cats_birds)
     pushGlobal("diagnosis", value = diagnosis)
-    pushGlobal("diagnosisDict", value = diagnozaDict)
+    pushGlobal("diagnosisDict", value = diagnosisDict)
   } else {
     colnames(auta2012_eng) <- c("Cena", "Waluta", "Cena.w.PLN", "Brutto.netto", "KM", "kW", 
       "Marka", "Model", "Wersja", "Liczba.drzwi", "Pojemnosc.skokowa", 
