@@ -1,3 +1,12 @@
+pushGlobal <- function(name, value) {
+  tf <- tempfile()
+  assign(name, value = value)
+  save(list=name, file=tf)
+  load(tf, envir = .GlobalEnv)
+  unlink(tf)
+#  assign("pearson", value = pearson_eng, envir = .GlobalEnv)
+}
+
 setLang <- function(lang = "eng") {
   auta2012_eng <- auta2012
   pearson_eng <- pearson
@@ -149,11 +158,11 @@ setLang <- function(lang = "eng") {
     auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="instalacja gazowa", replacement="gas-fittings")
     auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="klatka", replacement="cage")
     
-    assign("warsaw_names", value = imiona_warszawa_eng, envir = .GlobalEnv)
-    assign("votes2014", value = mandatySejmik2014_eng, envir = .GlobalEnv)
-    assign("cats_birds", value = cats_birds, envir = .GlobalEnv)
-    assign("diagnosis", value = diagnosis, envir = .GlobalEnv)
-    assign("diagnosisDict", value = diagnozaDict, envir = .GlobalEnv)
+    pushGlobal("warsaw_names", value = imiona_warszawa_eng)
+    pushGlobal("votes2014", value = mandatySejmik2014_eng)
+    pushGlobal("cats_birds", value = cats_birds)
+    pushGlobal("diagnosis", value = diagnosis)
+    pushGlobal("diagnosisDict", value = diagnozaDict)
   } else {
     colnames(auta2012_eng) <- c("Cena", "Waluta", "Cena.w.PLN", "Brutto.netto", "KM", "kW", 
       "Marka", "Model", "Wersja", "Liczba.drzwi", "Pojemnosc.skokowa", 
@@ -170,12 +179,12 @@ setLang <- function(lang = "eng") {
 #    colnames(mandatySejmik2014_eng) <- c("Wojewodztwo", "PSL", "PiS", "PO", "SLD", "Inne", "ProcentWaznychGlosow", 
 #                                         "long", "lat")   
 #    colnames(cats_birds) <- c("gatunek", "waga", "dlugosc", "predkosc", "habitat", "zywotnosc", "druzyna" )
-#    assign("koty_ptaki", value = cats_birds, envir = .GlobalEnv)
+#    pushGlobal("koty_ptaki", value = cats_birds)
   }
   
-  assign("pearson", value = pearson_eng, envir = .GlobalEnv)
-  assign("galton", value = galton_eng, envir = .GlobalEnv)
-  assign("WIG", value = WIG_eng, envir = .GlobalEnv)
-  assign("auta2012", value = auta2012_eng, envir = .GlobalEnv)
+  pushGlobal("pearson", value = pearson_eng)
+  pushGlobal("galton", value = galton_eng)
+  pushGlobal("WIG", value = WIG_eng)
+  pushGlobal("auta2012", value = auta2012_eng)
   invisible(0)
 }
