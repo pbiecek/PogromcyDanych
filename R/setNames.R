@@ -7,16 +7,15 @@ pushGlobal <- function(name, value) {
 }
 
 setLang <- function(lang = "eng") {
-  data(list = c("auta2012", "pearson", "galton", "WIG", "diagnoza", "diagnozaDict", "mandatySejmik2014",
-                "koty_ptaki", "imiona_warszawa"), package = "PogromcyDanych", envir = environment())
-  auta2012_eng <- auta2012
-  pearson_eng <- pearson
-  galton_eng <- galton
-  WIG_eng <- WIG
-  diagnosis <- diagnoza
-  mandatySejmik2014_eng <- mandatySejmik2014
-  imiona_warszawa_eng <- imiona_warszawa
-  cats_birds <- koty_ptaki
+  auta2012_eng <- PogromcyDanych::auta2012
+  pearson_eng <- PogromcyDanych::pearson
+  galton_eng <- PogromcyDanych::galton
+  WIG_eng <- PogromcyDanych::WIG
+  diagnosis <- PogromcyDanych::diagnoza
+  diagnosisDict <- PogromcyDanych::diagnozaDict
+  mandatySejmik2014_eng <- PogromcyDanych::mandatySejmik2014
+  imiona_warszawa_eng <- PogromcyDanych::imiona_warszawa
+  cats_birds <- PogromcyDanych::koty_ptaki
   if (lang == "eng") {
     colnames(auta2012_eng) <- c("Price", "Currency", "Price.in.PLN", "Gross.Net", "HP", "kW",
                                 "Brand", "Model", "Version", "Nubmer.of.doors", "Engine.cubic.capacity",
