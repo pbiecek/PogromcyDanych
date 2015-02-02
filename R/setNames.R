@@ -4,10 +4,11 @@ pushGlobal <- function(name, value) {
   save(list=name, file=tf)
   load(tf, envir = .GlobalEnv)
   unlink(tf)
-#  assign("pearson", value = pearson_eng, envir = .GlobalEnv)
 }
 
 setLang <- function(lang = "eng") {
+  data(list = c("auta2012", "pearson", "galton", "WIG", "diagnoza", "diagnozaDict", "mandatySejmik2014",
+                "koty_ptaki", "imiona_warszawa"), package = "PogromcyDanych")
   auta2012_eng <- auta2012
   pearson_eng <- pearson
   galton_eng <- galton
