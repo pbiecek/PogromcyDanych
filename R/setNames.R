@@ -24,7 +24,7 @@ setLang <- function(lang = "eng") {
                                 "Country.of.origin", "Is.damaged", "Transmission", "Is.imported",
                                 "Accessories")
   
-    colnames(seriale_eng) <- c("id", "series", "name", "season","part","note","votes")
+    colnames(seriale_eng) <- c("id", "series", "name", "season","part","note","votes","imdbId")
     colnames(pearson_eng) <- c("son", "father")
     colnames(galton_eng) <- c("son", "mid_parent")
     colnames(imiona_warszawa_eng) <- c("name", "sex", "year", "month", "count")
