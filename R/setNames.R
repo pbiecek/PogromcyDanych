@@ -15,6 +15,7 @@ setLang <- function(lang = "eng") {
   diagnosisDict <- PogromcyDanych::diagnozaDict
   mandatySejmik2014_eng <- PogromcyDanych::mandatySejmik2014
   imiona_warszawa_eng <- PogromcyDanych::imiona_warszawa
+  seriale_eng <- PogromcyDanych::serialeIMDB
   cats_birds <- PogromcyDanych::koty_ptaki
   if (lang == "eng") {
     colnames(auta2012_eng) <- c("Price", "Currency", "Price.in.PLN", "Gross.Net", "HP", "kW",
@@ -23,6 +24,7 @@ setLang <- function(lang = "eng") {
                                 "Country.of.origin", "Is.damaged", "Transmission", "Is.imported",
                                 "Accessories")
   
+    colnames(seriale_eng) <- c("id", "series", "name", "season","part","note","votes")
     colnames(pearson_eng) <- c("son", "father")
     colnames(galton_eng) <- c("son", "mid_parent")
     colnames(imiona_warszawa_eng) <- c("name", "sex", "year", "month", "count")
@@ -158,6 +160,7 @@ setLang <- function(lang = "eng") {
     auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="instalacja gazowa", replacement="gas-fittings")
     auta2012$Wyposazenie.dodatkowe <- gsub(auta2012$Wyposazenie.dodatkowe, pattern="klatka", replacement="cage")
     
+    pushGlobal("seriesIMDB", value = seriale_eng)
     pushGlobal("warsaw_names", value = imiona_warszawa_eng)
     pushGlobal("votes2014", value = mandatySejmik2014_eng)
     pushGlobal("cats_birds", value = cats_birds)
