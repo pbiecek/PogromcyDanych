@@ -41,6 +41,10 @@ setLang <- function(lang = "eng") {
     cats_birds$habitat <- c("Asia", "Africa", "America", "America", "Asia", "Africa", "Asia", "Eurasia", "Africa", "North", "North", "North", "South")
 
     levels(diagnosis$plec) = c("MAN", "WOMAN")
+    for (i in 1:ncol(diagnosis)) {
+      if(class(diagnosis[,i]) == "factor")
+        diagnosis[,i] <- droplevels(diagnosis[,i])
+    }
     levels(diagnosis$eduk4_2013) = c("PRIMARY/NO EDUCATION", "VOCATIONAL/GRAMMAR", 
                    "SECONDARY", "HIGHER AND POST-SECONDARY")
     levels(diagnosis$status9_2013) = c("EMPLOYEES IN PUBLIC SECTOR", 
