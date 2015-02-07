@@ -11,6 +11,7 @@ setLang <- function(lang = "eng") {
   pearson_eng <- PogromcyDanych::pearson
   galton_eng <- PogromcyDanych::galton
   WIG_eng <- PogromcyDanych::WIG
+  TCGA_BRCA_eng <- PogromcyDanych::TCGA_BRCA
   diagnosis <- PogromcyDanych::diagnoza
   diagnosisDict <- PogromcyDanych::diagnozaDict
   mandatySejmik2014_eng <- PogromcyDanych::mandatySejmik2014
@@ -24,6 +25,7 @@ setLang <- function(lang = "eng") {
                                 "Country.of.origin", "Is.damaged", "Transmission", "Is.imported",
                                 "Accessories")
   
+    colnames(TCGA_BRCA_eng) <- c("TP53", "gender", "vital.status", "days.to.death", "new.tumor")
     colnames(seriale_eng) <- c("id", "series", "name", "season","part","note","votes","imdbId")
     colnames(pearson_eng) <- c("son", "father")
     colnames(galton_eng) <- c("son", "mid_parent")
@@ -177,6 +179,8 @@ setLang <- function(lang = "eng") {
       "Kraj.pochodzenia", "Pojazd.uszkodzony", "Skrzynia.biegow", "Status.pojazdu.sprowadzonego", 
       "Wyposazenie.dodatkowe")
     
+    colnames(TCGA_BRCA_eng) <- c("TP53", "plec", "czy.zyje", "dni.do.smierci", "czy.nowy.guz")
+    
     colnames(pearson_eng) <- c("syn", "ojciec")
     colnames(galton_eng) <- c("syn", "sr_rodzic")
  #   colnames(imiona_warszawa_eng) <- c("imie", "plec", "rok", "miesiac", "liczba")  
@@ -191,6 +195,7 @@ setLang <- function(lang = "eng") {
   
   pushGlobal("pearson", value = pearson_eng)
   pushGlobal("galton", value = galton_eng)
+  pushGlobal("TCGA_BRCA", value = TCGA_BRCA_eng)
   pushGlobal("WIG", value = WIG_eng)
   pushGlobal("auta2012", value = auta2012_eng)
   invisible(0)
