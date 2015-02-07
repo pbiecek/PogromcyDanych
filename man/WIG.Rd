@@ -15,6 +15,5 @@ This data contains daily indexes from year 2014.
 }
 \examples{
 head(WIG)
-head(WIG_eng)
 }
 \keyword{datasets}
