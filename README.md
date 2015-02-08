@@ -10,6 +10,7 @@ if (!require(devtools)) {
 }
 install_github("pbiecek/PogromcyDanych")
 ```
+
 or use CRAN version:
 
 ```{Ruby}
@@ -18,7 +19,7 @@ install.packages("PogromcyDanych")
 
 Kindly cite the PogromcyDanych R package as follows:
 ```
-Przemyslaw Biecek (2014)
+Przemyslaw Biecek (2015)
 PogromcyDanych R package
 https://github.com/pbiecek/PogromcyDanych
 ```
