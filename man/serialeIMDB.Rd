@@ -21,6 +21,23 @@ Each of 20122 rows describes one episode. The subsequent variables/columns give 
 
 For example ratings for Ninjago series are avaliable here
 http://www.imdb.com/title/tt1871731
+
+[POL]
+
+Oceny odcinków seriali filmowych.
+
+W zbiorze danych serialeIMDB zebraliśmy informacje o popularności odcinków seriali telewizyjnych.
+
+Z serwisu http:///www.imdb.com pobraliśmy dane o ocenach oraz liczbie oddanych głosów każdego odcinka dla 200 najpopularniejszych seriali telewizyjnych. W zbiorze danych są również umieszczone nazwy seriali oraz nazwy poszczególnych odcinków.
+
+Każdy wiersz opisuje jeden odcinek, wierszy w sumie jest 20122. Kolejne zmienne/kolumny opisują:
+
+- nazwę serialu, nazwę odcinka,
+- numer sezonu, numer odcinak w sezonie,
+- średnia ocena danego odcinka,
+- liczba oddanych głosów,
+- identyfikator serialu używany w bazie IMDB.
+
 }
 \author{
  Przemyslaw Biecek [R convertion]

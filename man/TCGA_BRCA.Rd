@@ -17,6 +17,19 @@ The data set TCGA_BRCA contains data about 999 patients. Each row corresponds to
 -	information whether there was a relapse and a new tumor.
 
 More details about TCGA project: http://cancergenome.nih.gov/
+
+[POL]
+
+Z bazy danych The Cancer Genome Atlas (TCGA) http://cancergenome.nih.gov/ pobrano podzbiór danych klinicznych i genetycznych pacjentów (głównie pacjentek) z nowotworem piersi.
+
+W zbiorze danych TCGA_BRCA zebrano wyniki dla 999 pacjentów. Każdy wiersz to jeden pacjent. Dla każdego pacjenta podane jest 5 cech:
+
+- informacja o mutacji genu TP53,
+- płeć pacjenta,
+- informacja czy pacjent żyje pięć lat po zabiegu,
+- liczba dni od operacji do zgonu (jeżeli wystąpił),
+- informacja o tym czy doszło do wznowy i czy pojawił się nowy guz.
+
 }
 \author{
  The Cancer Genome Atlas (data source), Przemyslaw Biecek (transformation)
