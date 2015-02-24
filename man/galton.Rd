@@ -29,7 +29,7 @@ Poniżej przedstawiamy pierwszych 6 wierszy z każdego ze zbiorów danych. W zbi
 
 }
 \author{
- Copy from other packages with small transformation in->cm
+ Copy from other packages with small transformation in -> cm.
 }
 \examples{
 head(galton)
