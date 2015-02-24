@@ -15,9 +15,11 @@ Each jump is described by 16 columns. Their content is described in the data set
 
 The skiJumps2013 data set contains the following information about each particular jump:
 
-- information about competition –city, country, parameters of a ski jump,
--	information about the ski jumper –name, surname, nationality, date of birth,
--	information about the jumps themselves (two jumps if the jumper jumped twice or one jump if the jumper did not qualify for the second round) –speed, distance, points added to the classification.
+- information about competition – city, country, parameters of a ski jump,
+
+-	information about the ski jumper – name, surname, nationality, date of birth,
+
+-	information about the jumps themselves (two jumps if the jumper jumped twice or one jump if the jumper did not qualify for the second round) – speed, distance, points added to the classification.
 
 [POL]
 
@@ -32,7 +34,9 @@ Każdy skok opisuje 16 kolumn, znaczenie poszczególnych kolumn jest opisane w z
 W zbiorze danych skiJumps2013, dla każdego oddanego skoku znaleźć można informacje o:
 
 - konkursach, takie jak: miejscowość, kraj, parametry skoczni,
+
 - skoczkach, takie jak: imię, nazwisko, narodowość, data urodzin,
+
 - skokach (dwóch, jeżeli skoczek skakał dwa razy lub jednego jeżeli nie zakwalifikował się do drugiej serii): prędkość, odległość, punkty do klasyfikacji.
 
 }

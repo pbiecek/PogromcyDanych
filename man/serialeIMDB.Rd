@@ -14,9 +14,13 @@ The data about assessment and number of votes cast for each episode of 200 most 
 Each of 20122 rows describes one episode. The subsequent variables/columns give the following information:
 
 - title of the series and title of an episode,
+
 -	number of the season and number of the episode,
+
 -	average assessment of a given episode,
+
 -	number of votes,
+
 -	identification number of the series in IMDB database.
 
 For example ratings for Ninjago series are avaliable here
@@ -33,9 +37,13 @@ Z serwisu http:///www.imdb.com pobraliśmy dane o ocenach oraz liczbie oddanych 
 Każdy wiersz opisuje jeden odcinek, wierszy w sumie jest 20122. Kolejne zmienne/kolumny opisują:
 
 - nazwę serialu, nazwę odcinka,
+
 - numer sezonu, numer odcinak w sezonie,
+
 - średnia ocena danego odcinka,
+
 - liczba oddanych głosów,
+
 - identyfikator serialu używany w bazie IMDB.
 
 }

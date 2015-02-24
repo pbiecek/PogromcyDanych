@@ -16,7 +16,9 @@ There are 84816 rows in this set and the data concerns different names, from ver
 The columns of this data set present respectively:
 
 -	gender and name of the child,
+
 -	year and month in which the data was gathered,
+
 -	number of babies with a given name born in Warsaw in a certain year and month.
 
 
@@ -33,7 +35,9 @@ W tym zbiorze danych jest 84816 wierszy, dane dotyczą 696 różnych imion od ty
 Kolejne kolumny w tym zbiorze danych przedstawiają:
 
 - imię i płeć dziecka,
+
 - rok i miesiąc którego dotyczy ta statystyka,
+
 - liczba noworodków o danym imieniu urodzonych w Warszawie w danym roku i miesiącu.
 }
 \author{

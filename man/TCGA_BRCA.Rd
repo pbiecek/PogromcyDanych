@@ -12,9 +12,13 @@ This dataset incorporates selected variables from patients with BReast CAncer.
 The data set TCGA_BRCA contains data about 999 patients. Each row corresponds to one patient and gives five basic pieces of information:
 
 - information on TP53 gene mutation,
+
 -	patient’s gender,
+
 -	information whether the patient lived for five years after the surgery,
+
 -	number of days between the surgery and death (if it occurred),
+
 -	information whether there was a relapse and a new tumor.
 
 More details about TCGA project: http://cancergenome.nih.gov/
@@ -26,9 +30,13 @@ Z bazy danych The Cancer Genome Atlas (TCGA) http://cancergenome.nih.gov/ pobran
 W zbiorze danych TCGA_BRCA zebrano wyniki dla 999 pacjentów. Każdy wiersz to jeden pacjent. Dla każdego pacjenta podane jest 5 cech:
 
 - informacja o mutacji genu TP53,
+
 - płeć pacjenta,
+
 - informacja czy pacjent żyje pięć lat po zabiegu,
+
 - liczba dni od operacji do zgonu (jeżeli wystąpił),
+
 - informacja o tym czy doszło do wznowy i czy pojawił się nowy guz.
 
 }

@@ -13,8 +13,11 @@ The data presents information about the number of seats in the regional parliame
 The subsequent columns present respectively:
 
 - name of the voivodeship,
+
 -	number of seats won by PSL, PiS, PO, SLD and other political parties,
+
 -	what is the percentage of valid votes of the total number of votes cast by the people entitled to vote,
+
 -	longitude and latitude of the geographical centre of the voivodeship.
 
 [POL]
@@ -28,8 +31,11 @@ Dane przedstawiają informacje o liczbie wygranych mandatów w sejmikach w wybor
 Kolejne kolumny opisują:
 
 - nazwę województwa,
+
 - liczbę zdobytych mandatów przez PSL, PiS, PO, SLD i inne partie,
+
 - jaki procent z uprawnionych do głosowania stanowi procent ważnych głosów,
+
 - długość i szerokość geograficzną środka geograficznego województwa.
 
 }

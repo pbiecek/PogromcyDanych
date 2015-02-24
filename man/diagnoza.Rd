@@ -20,8 +20,11 @@ The subset is called diagnoza and it consists of 38461 rows. Each row presents a
 The variables describe among other things:
 
 - names of the respondents,
+
 -	analytical weights,
+
 -	number of years of study, gender, education, height, weight, income,
+
 -	answers to chosen questions concerning the worldview.
 
 The data set called diagnozaDict describes names of columns form the diagnoza data set. 
@@ -41,8 +44,11 @@ Podzbiór danych nazywa się diagnoza i zawiera 38461 wierszy. Każdy wiersz to 
 Wybrane zmienne opisują:
 
 - imiona respondentów,
+
 - wagi analityczne, wynikające ze sposobu losowania,
+
 - liczbę lat nauki, płeć, wykształcenie, wzrost, wagę, dochody,
+
 - odpowiedzi na wybrane pytania dotyczące światopoglądu.
 
 

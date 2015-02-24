@@ -16,7 +16,9 @@ Information about the daily performance for WIG (Warsaw Stock Exchange Index) fr
 The subsequent columns present respectively:
 
 - data of quotation,
+
 -	opening and closing share price, minimum and maximum share price,
+
 -	change in share price and the turnover in thousands of PLN.
 
 There are 248 rows in the data set and each row corresponds to one day of quotation.  The Warsaw stock Exchange is closed on Saturdays, Sundays and holidays and the number of quotation days is respectively smaller. 
@@ -32,7 +34,9 @@ Ze strony Giełdy Papierów Wartościowych http://www.gpwinfostrefa.pl/GPWIS2/pl
 W kolejnych kolumnach przedstawione jest:
 
 - data, której dotyczą notowania,
+
 - kurs otwarcia, zamknięcia, kurs minimalny i maksymalny,
+
 - zmiana kursu oraz wartość obrotów w tysiącach złotych.
 
 W zbiorze danych jest 248 wierszy, każdy wiersz odpowiada notowaniom z jednego dnia. W soboty, niedziele i święta giełda jest zamknięta, stąd ta liczba dni z notowaniami.

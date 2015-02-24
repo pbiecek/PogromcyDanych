@@ -14,9 +14,13 @@ The data set juxtaposes characteristics of 13 chosen species of cats and birds p
 The columns of this data set present respectively:
 
 - name of the species,
+
 -	maximum weight of an individual animal expressed in kilograms and maximum body length in meters, 
+
 -	maximum speed (in the horizontal flight in case of birds, not during the dive) expressed in kilometers per hour,
+
 -	habitat and length of life in years,
+
 -	the last column specifies whether the species is a big cat or a bird.
 
 
@@ -31,9 +35,13 @@ W danych zestawiono charakterystyki dla 13 wybranych gatunków przedstawionych w
 Kolejne kolumny w tym zbiorze danych przedstawiają:
 
 - nazwę gatunku,
+
 - maksymalną osobniczą wagę w kilogramach i maksymalną długość ciała w metrach,
+
 - maksymalną prędkość (dla ptaków w locie poziomym, nie w nurkowaniu) w kilometrach na godzinę,
+
 - obszar zamieszkania oraz żywotność w latach,
+
 - ostatnia kolumna określa czy gatunek jest dużym kotem czy ptakiem.
 }
 \author{
