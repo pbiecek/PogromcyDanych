@@ -1,3 +1,4 @@
+\encoding{utf-8}
 \name{imiona_warszawa}
 \alias{imiona_warszawa}
 \alias{warsaw_names}

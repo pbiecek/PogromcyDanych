@@ -33,7 +33,7 @@ W zbiorze danych TCGA_BRCA zebrano wyniki dla 999 pacjentów. Każdy wiersz to j
 
 }
 \author{
- The Cancer Genome Atlas (data source), Przemyslaw Biecek (transformation)
+ The Cancer Genome Atlas (data source)
 }
 \examples{
 head(TCGA_BRCA)

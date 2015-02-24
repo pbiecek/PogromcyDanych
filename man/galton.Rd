@@ -1,3 +1,4 @@
+\encoding{utf-8}
 \name{galton}
 \alias{galton}
 \alias{pearson}
