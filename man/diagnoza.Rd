@@ -51,6 +51,5 @@ Full dataset: https://github.com/pbiecek/Diagnoza
 }
 \author{
 Source: http://diagnoza.com/ 
-Przemyslaw Biecek
 }
 
