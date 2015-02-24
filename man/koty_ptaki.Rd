@@ -1,3 +1,4 @@
+\encoding{utf-8}
 \name{koty_ptaki}
 \alias{koty_ptaki}
 \alias{cats_birds}
