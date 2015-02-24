@@ -3,16 +3,17 @@
 \alias{galton}
 \alias{pearson}
 \docType{data}
-\title{Galton's and Pearson's Height Data for Parents and Children in Centimeters}
+\title{Galton's and Pearson's Height Data for Parents and Children}
 \description{
 Height of parents and children
 
-The word regression comes from the pioneering studies carried out by Francis Galton and Karl Pearson concerning relationship between height of parents and their children. 
+The word regression comes from the pioneering studies carried out by Francis Galton and Karl Pearson concerning relationship between height of parents and their children’s. 
 
 The original data sets created by the scientists are available in the variables galton and pearson. Using these data sets we can describe relationship between the height of a son and his father (pearson) and relationship between the weighted average height of the parents (galton) and their son’s height. 
 
 This is a data set used by Galton in 1885 to study the relationship between a parent's height and their childrens.
-The secon dataset was used by Pearson to investigate regression. 
+The second dataset was used by Pearson to investigate regression. 
+
 Height is transformed from inches to centimeters.
 
 There are 928 rows in the galton data set and 1078 rows in the pearson data set. 
