@@ -1,3 +1,4 @@
+\encoding{utf-8}
 \name{PogromcyDanych-package}
 \alias{PogromcyDanych-package}
 \alias{PogromcyDanych}
