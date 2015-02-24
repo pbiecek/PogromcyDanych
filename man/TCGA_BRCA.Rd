@@ -1,3 +1,4 @@
+\encoding{utf-8}
 \name{TCGA_BRCA}
 \alias{TCGA_BRCA}
 \docType{data}

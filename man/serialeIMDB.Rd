@@ -1,10 +1,10 @@
+\encoding{utf-8}
 \name{serialeIMDB}
 \alias{serialeIMDB}
 \alias{seriesIMDB}
 \docType{data}
 \title{Assessment of episodes of TV series}
 \description{
-
 The data set called serialeIMDB contains information about popularity of particular episodes of TV series.
 
 English version of this dataset is named seriesIMDB, use setLang() first.
