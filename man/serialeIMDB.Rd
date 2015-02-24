@@ -3,7 +3,7 @@
 \alias{serialeIMDB}
 \alias{seriesIMDB}
 \docType{data}
-\title{Assessment of episodes of TV series}
+\title{Assessment of Episodes of TV series}
 \description{
 The data set called serialeIMDB contains information about popularity of particular episodes of TV series.
 
