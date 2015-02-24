@@ -13,17 +13,29 @@ If you want to switch to English use the command setLang() as in the example bel
 As a result of the function the following data sets will be copied into the namespaces:
 
 Polish name -> English name
+
 koty_ptaki ->	cats_birds	
+
 imiona_warszawa ->	warsaw_names	
+
 mandatySejmik2014	-> votes2014	
+
 auta2012	-> auta2012	
+
 WIG	-> WIG	
+
 pearson	-> pearson	
+
 galton ->	galton	
+
 skiJumps2013	-> skiJumps2013	
+
 diagnoza	-> diagnosis 
+
 diagnozaDict ->	diagnosisDict	
+
 serialeIMDB	-> seriesIMDB	
+
 TCGA_BRCA	-> TCGA_BRCA	
 
 The setLang('pol') command will translate the names back into Polish. 
@@ -39,17 +51,29 @@ Aby przełączyć się na wersję angielską należy użyć polecenia setLang() 
 W wyniku jej działania do przestrzeni nazw wkopiowane będą następujące zbiory danych:
 
 Nazwa polska -> Nazwa angielska	
+
 koty_ptaki ->  cats_birds	
+
 imiona_warszawa ->	warsaw_names	
+
 mandatySejmik2014	-> votes2014	
+
 auta2012	-> auta2012	
+
 WIG	-> WIG	
+
 pearson	-> pearson	
+
 galton ->	galton	
+
 skiJumps2013	-> skiJumps2013	
+
 diagnoza	-> diagnosis 
+
 diagnozaDict ->	diagnosisDict	
+
 serialeIMDB	-> seriesIMDB	
+
 TCGA_BRCA	-> TCGA_BRCA	
 
 Instrukcja setLang("pol") tłumaczy z powrotem na polskie nazwy.
