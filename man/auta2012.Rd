@@ -35,13 +35,13 @@ Każda oferta (każdy wiersz) opisana jest przez 21 zmiennych, w tym:
 
 - cenę, walutę i informację czy jest to cena brutto czy netto,
 
-- informacja o mocy silnika w koniach mechanicznych i kW, oraz jego pojemności,
+- informację o mocy silnika w koniach mechanicznych i kW, oraz jego pojemności,
 
-- informacja o modelu, marce, wersji auta,
+- informację o modelu, marce, wersji auta,
 
-- informacja o rodzaju napędu, roku produkcji oraz przebiegu (w km),
+- informację o rodzaju napędu, roku produkcji oraz przebiegu (w km),
 
-- informacja o kolorze, liczbie drzwi, kraju pochodzenia, kraju rejestracji oraz wyposażeniu.
+- informację o kolorze, liczbie drzwi, kraju pochodzenia, kraju rejestracji oraz wyposażeniu.
 
 Informacja o wyposażeniu jest opisana przez napis z wartościami rozdzielanymi przecinkiem, przez co sam napis może być bardzo długi.
 }

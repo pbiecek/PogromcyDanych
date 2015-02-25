@@ -8,7 +8,7 @@
 PogromcyDanych / DataCrunchers is the Masive Online Open Course that Brings R and Statistics to the People
 }
 \description{
-The data sets used in the online course ,,PogromcyDanych''. The package includes both large data sets, such as auta2012 with prices for cars offered for sale in 2012, as well as small data sets to basic exercises such as cats_birds.
+The data sets used in the online course ,,PogromcyDanych''. The package includes both large data sets, such as auta2012 with prices for cars offered for sale in 2012, as well as small data sets for basic exercises such as cats_birds.
 
 You can process data in many ways. The course Data Crunchers will introduce you to this variety. For this reason we will work on datasets of different size (from several to several hundred thousand rows), with various level of complexity (from two to two thousand columns) and prepared in different formats (text data, quantitative data and qualitative data). 
 
