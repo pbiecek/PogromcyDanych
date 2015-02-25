@@ -6,7 +6,7 @@ Change Column Names / Datasets Names to Polish or English
 }
 \description{
 
-The Data Crunchrs course is available in two language versions – Polish and English. However, it was not necessary to create two language versions of data sets and thus double the data. For this reason your data loaded from the PogromcyDanych package will be in Polish. 
+The Data Crunchers course is available in two language versions – Polish and English. However, it was not necessary to create two language versions of data sets and thus double the data. For this reason your data loaded from the PogromcyDanych package will be in Polish. 
 
 If you want to switch to English use the command setLang() as in the example below. This function will translate the Polish names in the data sets (as well as names of columns and values) into English.
 

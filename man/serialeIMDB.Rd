@@ -30,9 +30,9 @@ http://www.imdb.com/title/tt1871731
 
 Oceny odcinków seriali filmowych.
 
-W zbiorze danych serialeIMDB zebraliśmy informacje o popularności odcinków seriali telewizyjnych.
+W zbiorze danych serialeIMDB zebraliśmy informacje o popularności odcinków seriali.
 
-Z serwisu http:///www.imdb.com pobraliśmy dane o ocenach oraz liczbie oddanych głosów każdego odcinka dla 200 najpopularniejszych seriali telewizyjnych. W zbiorze danych są również umieszczone nazwy seriali oraz nazwy poszczególnych odcinków.
+Z serwisu http:///www.imdb.com pobraliśmy dane o ocenach oraz liczbie głosów oddanych na dany odcinek dla 200 najpopularniejszych seriali telewizyjnych. W zbiorze danych są również umieszczone nazwy seriali oraz nazwy poszczególnych odcinków.
 
 Każdy wiersz opisuje jeden odcinek, wierszy w sumie jest 20122. Kolejne zmienne/kolumny opisują:
 

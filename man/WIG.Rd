@@ -5,9 +5,9 @@
 \docType{data}
 \title{Warszawski Indeks Gieldowy (Warsaw Stock Exchange Index)}
 \description{
-WIG, index of the Warsaw Stock Exchange 
+WIG, index of the Warsaw Stock Exchange.
 
-Originally an acronym for Warszawski Indeks Gieldowy (Warsaw Stock Exchange Index)  is the oldest index of the Warsaw Stock Exchange, introduced on the WSE's first trading  session on 16 April 1991.
+Originally an acronym for Warszawski Indeks Gieldowy (Warsaw Stock Exchange Index). WIG is the oldest index of the Warsaw Stock Exchange, introduced on the WSE's first trading  session on 16 April 1991.
 
 The data set WIG was prepared so that we could take a look at the analysis and visualization of data with longer time series. In this case the data concerns daily quotations on a stock exchange.
 
@@ -31,7 +31,7 @@ Zbiór danych WIG przygotowaliśmy po to, by przyjrzeć się analizie i wizualiz
 
 Ze strony Giełdy Papierów Wartościowych http://www.gpwinfostrefa.pl/GPWIS2/pl/index/ pobrano dzienne notowania dla indeksu WIG (Warszawski Indeks Giełdowy) z okresu grudzień 2013 - listopad 2014.
 
-W kolejnych kolumnach przedstawione jest:
+W kolejnych kolumnach przedstawione są:
 
 - data, której dotyczą notowania,
 

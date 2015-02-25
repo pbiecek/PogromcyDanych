@@ -4,7 +4,7 @@
 \docType{data}
 \title{Selected Variables from BReast CAncer Patients of The Cancer Genome Atlas Project}
 \description{
-A subset of clinical and genetic data concerning breast cancer patients (mainly female patients) from the database The Cancer Genome Atlas (TCGA) http://cancergenome.nih.gov/.
+A subset of clinical and genomic data concerning breast cancer patients (mainly female patients) from the database The Cancer Genome Atlas (TCGA) http://cancergenome.nih.gov/.
 
 The Cancer Genome Atlas study collects clinical and genomic data from different tumors. 
 This dataset incorporates selected variables from patients with BReast CAncer.
