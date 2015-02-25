@@ -48,7 +48,7 @@ Każdy wiersz opisuje jeden odcinek, wierszy w sumie jest 20122. Kolejne zmienne
 
 }
 \author{
- Przemyslaw Biecek [R convertion]
+ Przemyslaw Biecek [convertion to R]
 }
 \examples{
 head(serialeIMDB)

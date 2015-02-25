@@ -43,7 +43,7 @@ Kolejne kolumny w tym zbiorze danych przedstawiają:
 \author{
  Bartlomiej & Agata Gorny [keeping statistics at http://gorny.edu.pl/imiona/index.php]; 
  Krzysiek Trajkowski [web scapping]; 
- Przemyslaw Biecek [R convertion]
+ Przemyslaw Biecek [convertion to R]
 }
 \examples{
 head(imiona_warszawa)

@@ -21,7 +21,7 @@ The subsequent columns present respectively:
 
 -	change in share price and the turnover in thousands of PLN.
 
-There are 248 rows in the data set and each row corresponds to one day of quotation.  The Warsaw stock Exchange is closed on Saturdays, Sundays and holidays and the number of quotation days is respectively smaller. 
+There are 248 rows in the data set and each row corresponds to one day of quotation.  The Warsaw Stock Exchange is closed on Saturdays, Sundays and holidays and the number of quotation days is respectively smaller. 
 
 [POL]
 
