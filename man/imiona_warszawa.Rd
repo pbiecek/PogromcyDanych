@@ -9,7 +9,7 @@ Names of newborn kids [girls and boys] in Warsaw between 2004 and 2014.
 
 The data set warsaw_names was prepared to present methods of trend analysis and methods of text analysis. 
 
-The data set contains information on the number of babies with a certain name born in Warsaw in the subsequent months of the period between 2004 and 2014.   This data was downloaded from the website http://gorny.edu.pl/imiona/index.php where you can also find information about the current number of births. 
+The data set contains information on the number of babies with certain names born in Warsaw in the subsequent months of the period between 2004 and 2014.   This data was downloaded from the website http://gorny.edu.pl/imiona/index.php where you can also find information about the current number of births. 
 
 There are 84816 rows in this set and the data concerns different names, from very popular names to rather rare ones.  
 
@@ -19,7 +19,7 @@ The columns of this data set present respectively:
 
 -	year and month in which the data was gathered,
 
--	number of babies with a given name born in Warsaw in a certain year and month.
+-	statistics of first names in a given year and month.
 
 
 [POL]
@@ -38,7 +38,7 @@ Kolejne kolumny w tym zbiorze danych przedstawiają:
 
 - rok i miesiąc którego dotyczy ta statystyka,
 
-- liczba noworodków o danym imieniu urodzonych w Warszawie w danym roku i miesiącu.
+- liczbę noworodków o danym imieniu urodzonych w Warszawie w danym roku i miesiącu.
 }
 \author{
  Bartlomiej & Agata Gorny [keeping statistics at http://gorny.edu.pl/imiona/index.php]; 

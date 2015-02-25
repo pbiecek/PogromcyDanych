@@ -14,7 +14,7 @@ The original data sets created by the scientists are available in the variables 
 This is a data set used by Galton in 1885 to study the relationship between a parent's height and their childrens.
 The second dataset was used by Pearson to investigate regression. 
 
-Height is transformed from inches to centimeters.
+Inches were converted into centimeters.
 
 There are 928 rows in the galton data set and 1078 rows in the pearson data set. 
 
@@ -30,7 +30,7 @@ Poniżej przedstawiamy pierwszych 6 wierszy z każdego ze zbiorów danych. W zbi
 
 }
 \author{
- Copy from other packages with small transformation in -> cm.
+ Copy from other packages with inches transformed into centimeters.
 }
 \examples{
 head(galton)
