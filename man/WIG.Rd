@@ -31,13 +31,13 @@ Zbiór danych WIG przygotowaliśmy po to, by przyjrzeć się analizie i wizualiz
 
 Ze strony Giełdy Papierów Wartościowych http://www.gpwinfostrefa.pl/GPWIS2/pl/index/ pobrano dzienne notowania dla indeksu WIG (Warszawski Indeks Giełdowy) z okresu grudzień 2013 - listopad 2014.
 
-W kolejnych kolumnach przedstawione są:
+W kolejnych kolumnach przedstawiono:
 
-- data, której dotyczą notowania,
+- datę, której dotyczą notowania,
 
 - kurs otwarcia, zamknięcia, kurs minimalny i maksymalny,
 
-- zmiana kursu oraz wartość obrotów w tysiącach złotych.
+- zmianą kursu oraz wartość obrotów w tysiącach złotych.
 
 W zbiorze danych jest 248 wierszy, każdy wiersz odpowiada notowaniom z jednego dnia. W soboty, niedziele i święta giełda jest zamknięta, stąd ta liczba dni z notowaniami.
 
