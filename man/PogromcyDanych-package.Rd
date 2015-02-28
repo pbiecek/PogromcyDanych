@@ -5,7 +5,7 @@
 \alias{DataCrunchers}
 \docType{package}
 \title{
-PogromcyDanych / DataCrunchers is the Masive Online Open Course that Brings R and Statistics to the People
+PogromcyDanych / DataCrunchers is the Massive Online Open Course that Brings R and Statistics to the People
 }
 \description{
 The data sets used in the online course ,,PogromcyDanych''. The package includes both large data sets, such as auta2012 with prices for cars offered for sale in 2012, as well as small data sets for basic exercises such as cats_birds.
