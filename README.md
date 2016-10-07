@@ -6,8 +6,7 @@ R package for the PogromcyDanych Masive Online Open Course
 [![Downloads](http://cranlogs.r-pkg.org/badges/PogromcyDanych)](http://cran.rstudio.com/package=PogromcyDanych)
 
 
-Installing PogromcyDanych package:
-To get started, install the latest version of **PogromcyDanych**:
+Install the latest version of **PogromcyDanych** from GitHub:
 ```{Ruby}
 if (!require(devtools)) {
     install.packages("devtools")
@@ -16,13 +15,13 @@ if (!require(devtools)) {
 install_github("pbiecek/PogromcyDanych")
 ```
 
-or use CRAN version:
+or use the CRAN version:
 
 ```{Ruby}
 install.packages("PogromcyDanych")
 ```
 
-Kindly cite the PogromcyDanych R package as follows:
+Kindly cite the PogromcyDanych R package:
 ```
 Przemyslaw Biecek (2015)
 PogromcyDanych R package
