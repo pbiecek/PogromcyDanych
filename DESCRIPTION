@@ -1,12 +1,13 @@
 Package: PogromcyDanych
 Type: Package
 Title: PogromcyDanych / DataCrunchers is the Massive Online Open Course that Brings R and Statistics to the People
-Version: 1.6
-Date: 2015-05-22
+Version: 1.7
+Date: 2021-04-07
 Author: Przemyslaw Biecek
 Maintainer: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>
 Description: The data sets used in the online course ,,PogromcyDanych''. You can process data in many ways. The course Data Crunchers will introduce you to this variety. For this reason we will work on datasets of different size (from several to several hundred thousand rows), with various level of complexity (from two to two thousand columns) and prepared in different formats (text data, quantitative data and qualitative data). All of these data sets were gathered in a single big package called PogromcyDanych to facilitate access to them. It contains all sorts of data sets such as data about offer prices of cars, results of opinion polls, information about changes in stock market indices, data about names given to newborn babies, ski jumping results or information about outcomes of breast cancer patients treatment.
 LazyLoad: yes
 LazyData: yes 
+LazyDataCompression: xz
 License: GPL-3
 Depends: R (>= 3.0), dplyr, SmarterPoland
